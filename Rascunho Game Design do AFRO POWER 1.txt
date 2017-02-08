@@ -1,0 +1,199 @@
+1) Fases:
+
+Primeira Área - Vilarejo nas Montanhas
+   -2 fases tamanho normal
+   -1 fase tamanho pequeno
+   -1 chefão
+Segunda Área - Mansão
+   -2 fases tamanho normal
+   -1 fase tamanho pequeno
+   -1 chefão
+Terceira Área - Ruínas
+   -3 fases tamanho normal
+   -1 chefão
+   
+--->> Ao invés de chapéus seriam runas/pedras/pilares, que quando você encosta você vira
+ou o arqueiro, ou o guerreiro, ou o mago. Quando você enconsta numa outra runa você desativa
+a anterior que havia encostado.
+
+2) Classes e características do Afro:
+
+-Barra de vida: 1000
+-Checkpoints nas fases (??)
+
+OBS.: NÃO HAVERÁ FORMA PRIMÁRIA
+
+Guerreiro:
+   -Vida em 100%
+   -Ataque com range baixo ("melee")
+   -Fire rate médio
+   -Dano maior
+   -ESPECIAL: Toma 10% do dano de frente; utilização do escudo 
+   (armadilhas dão menos dano também; sem knock back; 
+    com casting time, como se fosse um "cooldown")
+   -Ataque: Espada
+Arqueiro:
+   -Vida em 50%
+   -Ataque com range alto
+   -Fire rate alto
+   -Dano menor
+   -ESPECIAL: Pulo duplo
+   -Ataque: Flecha
+Mago:
+   -Vida em 75%
+   -Ataque com range médio
+   -Fire rate baixo
+   -Dano médio
+   -ESPECIAL: Dano em área
+   -Ataque: Bola de Fogo
+
+3) Itens no cenário:
+
+Baús com poções:
+   -Poção pequena (25%) 
+   -Poção média (50%)
+   -Poção grande (100%)
+Tipos diferentes de baús:
+   -Baú normal (não precisa de chave)
+   -Baú com fechadura (1 chave)
+   -Baú com múltipla fechadura (mais de 1 chave)
+Chaves para abrir baús
+Pente (moeda)
+
+4) Inimigos:
+
+EU1 - Guerreiro de Lança - Investida com a lança se o jogador estiver longe (enquanto faz isso fica imune a flechas e cortes da espada);
+ataque básico se o jogador estiver perto;
+EU2 - Guerreiro de Machadinho e Escudo - inimigos no raio dele terão o dano tomado reduzido; taca o machado na direção do jogador, ficando vulnerável;
+enquanto defende com o escudo fica imune a flechas e cortes da espada;
+EU3 - Guerreiro de Martelo de Guerra - pula para cima do jogador com o martelo na mão; ataque básico se o jogador estiver perto;
+EM1A - Sapo (anda de um lado para o outro; chegou perto te ataca com a língua)
+ER1A - Plantas (atiram sementes em você; todo tiro da slow; dano baixo; chegou perto, ela morde; fica somente no chão)
+EF1 - Algum tipo de pássaro que dê rasante
+EA1 - Peixe piranha
+ET1 - Mímico normal (boca/dentes e língua): 
+-> Quando atacado, toma dano. Ao ser aberto, ele se revela e ataca o jogador.
+EM1B - Sapo grande de cor preta (meio camuflado na área; anda de um lado para o outro; chegou perto te ataca com a lingua, te dando slow)
+ER1B - Planta reforçada (atiram sementes em você; todo tiro da stun; dano baixo; chegou perto, ela morde; pode ficar na parede, no teto e no chão)
+ET2 - Mímico reforçado (igual ao normal, porém com uma mão que vem de trás): 
+-> Quando atacado, não toma dano, porém, ao chegar perto, ele se revela e ataca o jogador.
+-> http://legendofthecryptids.wikia.com/wiki/(Mimic)_Carnivorous_Chest_Monster (imagem base)
+ER2A - Gárgula (tiro teleguiado pela última posição)
+ER2B - Gárgula reforçada (tiro teleguiado pela próxima posição; previsão futura)
+EP1A - Porco fantasma (vai atrás de você até você desviar dele)
+EP1B - Porco fantasma reforçado (vai atrás de você até você encontrar algum item no cenário)
+ET3A - Fogo vermelho que sai de surpresa de tochas/velas/candelabros (fica quicando até colidir, ou depois de um certo tempo, ou até você matá-lo)
+ET3B - Fogo azul que sai de surpresa de tochas/velas/canelabros (fica quicando e deixa um rastro de fogo por um tempo por onde passou)
+ET3C - Fogo vermelho reforçado/maior que sai de surpresa de tochas/velas/canelabros (fica quicando e quando você bate se divide em dois, duas vezes)
+ET4A - Armadura viva (chegou perto, te ataca e começa a ir na sua direção)
+ET4B - Armadura viva reforçada (chegou perto, te ataca e começa a ir na sua direção; durabilidade maior no combate)
+
+MB1 - Ogro feio:
+   -Pula;
+   -Bate com as duas mãos no jogador;
+   -Pisa no chão, fazendo com que debaixo do jogador apareçam espinhos;
+MB2 - Guerreiro Veterano de Espada:
+   -Três ataques seguidos com a espada (ele da uma investida para frente a cada ataque); 
+   -Investida cortando (corta tudo por onde ele passou);
+   -Pula girando para cima do jogador, ficando, portanto, invulnerável;
+MB3 - Mago Summoner:
+   -"Spawna" vários fantasmas 
+   -Lança magias em padrões diferentes
+   -Várias cópias dele, só uma verdadeira
+MB4 - Duas armaduras vivas (Arma: Alabarda):
+   -Lâminas de fogo na direção do jogador;
+   -Corte meia lua com rastro de fogo 
+   -Placeholder
+MB5 - DARK AFRO KNIGHT:
+   -Placeholder
+   -Placeholder
+   -Placeholder
+MB6 - Guerreiro Veterano de Espada (Arma: Bola com espinhos e corrente):
+   -Tem habilidade de "spawnar" os outros tipos de guerreiros, incluindo o MB2; 
+   -Habilidade que permite que os guerreiros que "spawnou" tenham mais vida/mais defesa/dêm mais dano;
+   -Magias vindas de cima;
+   -Gira a arma dele e joga na direção do jogador;
+
+a) Vilarejo nas Montanhas: 
+
+-Primeira fase: EM1A, ER1A, EF1, EA1 & MB1;
+-Segunda fase: 
+-Terceira fase:
+-Boss: Chaugnar Faugn
+
+b) Mansão:
+
+-Primeira fase: ET1; 
+-Segunda fase: ET1; 
+-Terceira fase: ET1; 
+-Boss: Cthugha (imagina-se uma forma como se fosse uma gárgula feminina com rachaduras de magma em seu corpo e 4 asas)
+
+.Parte Puzzle: O jogador inicialmente precisa destruir uma crosta, utilizando o guerreiro, que está em cima da alavanca que aciona o elevador. 
+Enquanto o jogador não descobre o que deve ser feito, Cthugha lança bolas de fogo (projéteis), enquanto voa no teto (alto). Assim que a alavanca 
+é liberada, o jogador pode acioná-la, levando-o para o alto, onde pode acertar a Cthugha. Porém, ela não está vulnerável ainda, devendo quebrar 
+os vasos de óleo (quando o boss estiver próximo) com qualquer uma das classes (recomenda-se que seja o arqueiro). Com o inimigo agora coberto de
+óleo pelo corpo, podemos ativar a alavanca, subir e acertar uma bola de fogo (utilizando o mago), fazendo com que ele agonize até cair ao chão,
+onde deixa suas asas de proteção vulneráveis para serem atacadas pelo guerreiro. Quebrando sua proteção, agora Cthugha está pronta para o combate.
+Segue, portanto, o passo a passo:
+
+1-Destrua a costra na alavanca; -> Guerreiro
+2-Acerte um dos vasos de óleo na Cthugha; -> Arqueiro
+3-Suba no elevador após utilizar a alavanca;
+4-Acerte a Cthugha com uma bola de fogo; -> Mago
+5-Após caída, ataque-a, destruindo suas asas. -> Guerreiro
+
+.Parte Combate:
+
+c) Ruínas:
+
+-Primeira fase: ET1; ET2;
+-Segunda fase:
+-Terceira fase:
+-Boss: Ulamog com duas Scimitar Sword (ou Scissor Sword); possui duas formas, uma mais humana e outra mais monstruosa
+
+5) Elementos do cenário:
+
+a) Vilarejo nas Montanhas:
+
+.Espinhos de planta
+
+b) Mansão:
+
+.Botões no chão que quando pisados liberam uma armadilha
+.Flechas que vêm da parede (precisa usar o escudo)
+.Espinhos
+
+c) Ruínas:
+
+.Plataformas que caem depois que você pisa nelas
+.Pedra rolando atrás de você
+.Estalactites que caem quando você passa por baixo
+.Pedras caindo de cima para baixo, das quais o jogador deve desviar
+.Tentáculos que saem do chão
+
+---------------------Nomes referência para a imagem fofa--------------------------------
+
+Cthulhu 
+Dagon 
+Eihort 
+Basatan 
+Juk-Shabb 
+Cxaxukluth 
+Hastur 
+Aphoom-Zhah 
+Rhogog 
+Chaugnar Faugn 
+Othuyeg 
+Tsathoggua 
+Cyäegha 
+Cthugha 
+Yig 
+Q'yth-az 
+Y'golonac 
+Cynothoglys Glaaki 
+Bokrug The Dweller in the Gulf 
+Shudde 
+M'ell 
+Ithaqua 
+Vulthoom 
+Saa'itii
