@@ -103,12 +103,12 @@ MB3 - Mago Summoner:
 MB4 - Duas armaduras vivas (Arma: Alabarda):
    -Lâminas de fogo na direção do jogador;
    -Corte meia lua com rastro de fogo 
-   -Placeholder
+   -Ataque conjunto
 MB5 - DARK AFRO KNIGHT:
    -Placeholder
    -Placeholder
    -Placeholder
-MB6 - Guerreiro Veterano de Espada (Arma: Bola com espinhos e corrente):
+MB6 - Guerreiro Comandante (Arma: Bola com espinhos e corrente):
    -Tem habilidade de "spawnar" os outros tipos de guerreiros, incluindo o MB2; 
    -Habilidade que permite que os guerreiros que "spawnou" tenham mais vida/mais defesa/dêm mais dano;
    -Magias vindas de cima;
