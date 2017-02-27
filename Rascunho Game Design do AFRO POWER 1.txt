@@ -62,11 +62,11 @@ Pente (moeda)
 
 4) Inimigos:
 
-EU1 - Guerreiro de Lança - Investida com a lança se o jogador estiver longe (enquanto faz isso fica imune a flechas e cortes da espada);
+ES1 - Guerreiro de Lança - Investida com a lança se o jogador estiver longe (enquanto faz isso fica imune a flechas e cortes da espada);
 ataque básico se o jogador estiver perto;
-EU2 - Guerreiro de Machadinho e Escudo - inimigos no raio dele terão o dano tomado reduzido; taca o machado na direção do jogador, ficando vulnerável;
+ES2 - Guerreiro de Machadinho e Escudo - inimigos no raio dele terão o dano tomado reduzido; taca o machado na direção do jogador, ficando vulnerável;
 enquanto defende com o escudo fica imune a flechas e cortes da espada;
-EU3 - Guerreiro de Martelo de Guerra - pula para cima do jogador com o martelo na mão; ataque básico se o jogador estiver perto;
+ES3 - Guerreiro de Martelo de Guerra - pula para cima do jogador com o martelo na mão; ataque básico se o jogador estiver perto;
 EM1A - Sapo (anda de um lado para o outro; chegou perto te ataca com a língua)
 ER1A - Plantas (atiram sementes em você; todo tiro da slow; dano baixo; chegou perto, ela morde; fica somente no chão)
 EF1 - Algum tipo de pássaro que dê rasante
