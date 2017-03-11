@@ -19,11 +19,13 @@ a anterior que havia encostado.
 2) Classes e características do Afro:
 
 -Barra de vida: 1000
--Checkpoints nas fases (??)
+-Checkpoints nas fases
 
 OBS.: NÃO HAVERÁ FORMA PRIMÁRIA
 
-Guerreiro:
+A)HABILIDADES:
+
+I)Guerreiro:
    -Vida em 100%
    -Ataque com range baixo ("melee")
    -Fire rate médio
@@ -32,33 +34,47 @@ Guerreiro:
    (armadilhas dão menos dano também; sem knock back; 
     com casting time, como se fosse um "cooldown")
    -Ataque: Espada
-Arqueiro:
+II)Arqueiro:
    -Vida em 50%
    -Ataque com range alto
    -Fire rate alto
    -Dano menor
    -ESPECIAL: Pulo duplo
    -Ataque: Flecha
-Mago:
+III)Mago:
    -Vida em 75%
    -Ataque com range médio
    -Fire rate baixo
    -Dano médio
+   -Pode concentrar o ataque básico, aumentando  o especial
    -ESPECIAL: Dano em área
    -Ataque: Bola de Fogo
 
+B)UPGRADES:
+
+I)Guerreiro:
+   -Dano da espada aumentado
+   -Redução do delay de ativação do escudo + Aumento da velocidade de movimento enquanto defende
+II)Arqueito:
+   -Dano da flecha
+   -Cadência de tiros do arco
+III)Mago:
+   -Dano com o seu ataque
+   -Aumenta a velocidade com que ele carrega o ataque concentrado
+IV)Gerais:
+   -Aumenta o HP máximo
+   -Aumenta o número de vidas por fase
+
 3) Itens no cenário:
 
-Baús com poções:
+a)Baús com poções e dinehro:
    -Poção pequena (25%) 
    -Poção média (50%)
    -Poção grande (100%)
-Tipos diferentes de baús:
+   -Variedades de valor de dinheiro
+b)Tipos diferentes de baús:
    -Baú normal (não precisa de chave)
-   -Baú com fechadura (1 chave)
-   -Baú com múltipla fechadura (mais de 1 chave)
-Chaves para abrir baús
-Pente (moeda)
+c)Pente ou Gel de cabelo (moeda para UPGRADES)
 
 4) Inimigos:
 
@@ -117,11 +133,33 @@ MB6 - Guerreiro Comandante (Arma: Bola com espinhos e corrente):
 a) Vilarejo nas Montanhas: 
 
 -Primeira fase: EM1A, ER1A, EF1, EA1 & MB1;
--Segunda fase: 
+-Segunda fase:
 -Terceira fase:
 -Boss: Chaugnar Faugn
 
-.Parte Puzzle: Possui 3 gemas, uma na barriga
+.Parte Puzzle: Possui 3 gemas, uma para cada classe diferente e com um mini-mundo alternativo e específico, no qual você deve utilizar
+os poderes da classe atual para passar, destruindo, assim, a gema que havia atacado(vide 3ª parte da 3ª fase). Após esta parte, teremos
+a luta, num mundo pscicodélico, com o chefão propriamente dito, que te atacará precisamente de 7 formas diferentes, com alguns ataques
+sendo específicos para cada classe(terão cores da identidade visual para identificá-los), ou seja, dependendo do ataque, só uma classe
+poderá desviar e/ou evitá-lo.
+
+.Parte Battle: Os ataques que ele possui são:
+
+-Bola de fogo gigante, que atravessa portais, os quais mudam a sua direção inicial, além de atravessar o chão;
+-Espinhos de gelo em cima de uma semi-circunferência(quando o raio colidir, os espinhos são lançados em várias direções);
+-Raio que vem do céu, marcado no chão as posições onde cairá
+-Circunferência que fica em volta do chefão, com lâminas de vento ao longo de sua superfície(4 circunferências, com duas em cada sentido, 
+horário e antihorário). As circunferências vão expandindo até o fim da fase;
+-Teletransporte a cada 2 ataques (duas posições fixas);
+-Tornado com raios, que vai em direção ao player, como se fosse uma grande coluna colidível, até o fim da fase, só podendo escapar
+utilizando os teletransportes do mago;
+-Ele quebra as plataformas, formando pedaços menores, que são jogados na sua direção, podendo esquisar utilizando o arqueiro com o seu
+pulo duplo. Você deve ir para as plataformas laterais para isso.
+-Turbilhão de água que obriga o jogador a defender-se com o escudo do guerreiro, sendo empurrado para trás, além de ter o dano reduzido
+-Depois de perder mais de 50% de sua vida, Chaugnar Faugn começa a girar o cenário, sem alterar a gravidade, além de seus ataques ficarem
+mais rápidos.
+
+OBS.: Se o jogador cair das plataformas, ele toma 10% de dano, teleportando de volta pro limite superior da tela, no estilo jogos antigos;
 
 b) Mansão:
 
